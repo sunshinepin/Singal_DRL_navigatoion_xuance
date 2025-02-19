@@ -1,0 +1,37 @@
+<launch>
+
+  <!-- 定义机器人名称和初始位置 -->
+  <arg name="robot_name" default="p3dx" />
+  <arg name="robot_position" default="-x -1.0 -y 5.0 -z 0.01" />
+
+  <!-- 启动 Gazebo 仿真环境 -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find multi_robot_scenario)/launch/TD3.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- 将 URDF 加载到 ROS 参数服务器 -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find multi_robot_scenario)/xacro/p3dx/pioneer3dx.xacro'" />
+
+  <!-- 在 Gazebo 中生成机器人模型 -->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
+        args="-urdf -model $(arg robot_name) -param robot_description $(arg robot_position)" />
+
+  <!-- 启动机器人状态发布器 -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="30.0"/>
+    <!-- <param name="tf_prefix" type="string" value="$(arg robot_name)"/> -->
+  </node>
+
+  <!-- 启动关节状态发布器 -->
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+    <param name="publish_frequency" type="double" value="30.0"/>
+  </node>
+    <!-- RViz Configuration -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find multi_robot_scenario)/rviz/pioneer3dx.rviz"/>
+
+</launch>
