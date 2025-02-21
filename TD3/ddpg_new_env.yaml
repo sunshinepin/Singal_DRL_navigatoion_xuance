@@ -6,8 +6,8 @@ render: True
 render_mode: 'rgb_array' # Choices: 'human', 'rgb_array'.
 fps: 50
 test_mode: False
-device: "cpu"
-# device: "cuda:0"
+# device: "cpu"
+device: "cuda:0"
 
 
 agent: "DDPG"
@@ -28,7 +28,7 @@ activation_action: 'tanh'
 
 seed: 19089
 parallels: 1  # number of environments
-buffer_size: 1000000  # replay buffer size
+buffer_size: 100000  # replay buffer size
 batch_size: 100
 learning_rate_actor: 0.001
 learning_rate_critic: 0.001
