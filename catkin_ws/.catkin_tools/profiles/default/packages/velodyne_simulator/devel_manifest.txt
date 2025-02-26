@@ -1,2 +1,2 @@
 velodyne_simulator/velodyne_simulator
-/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/velodyne_simulator/cmake.lock /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/./cmake.lock
+/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/velodyne_simulator/cmake.lock /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/./cmake.lock

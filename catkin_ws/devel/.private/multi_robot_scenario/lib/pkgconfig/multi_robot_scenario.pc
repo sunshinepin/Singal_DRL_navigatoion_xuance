@@ -1,4 +1,4 @@
-prefix=/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/multi_robot_scenario
+prefix=/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/multi_robot_scenario
 
 Name: multi_robot_scenario
 Description: Description of multi_robot_scenario

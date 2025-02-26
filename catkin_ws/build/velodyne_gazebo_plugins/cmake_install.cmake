@@ -1,8 +1,8 @@
-# Install script for directory: /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins
+# Install script for directory: /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/_setup_util.py")
+   "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install" TYPE PROGRAM FILES "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install" TYPE PROGRAM FILES "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/env.sh")
+   "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install" TYPE PROGRAM FILES "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install" TYPE PROGRAM FILES "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/setup.bash;/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/local_setup.bash")
+   "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/setup.bash;/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install" TYPE FILE FILES
-    "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/setup.bash"
-    "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install" TYPE FILE FILES
+    "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/setup.bash"
+    "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/setup.sh;/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/local_setup.sh")
+   "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/setup.sh;/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install" TYPE FILE FILES
-    "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/setup.sh"
-    "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install" TYPE FILE FILES
+    "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/setup.sh"
+    "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/setup.zsh;/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/local_setup.zsh")
+   "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/setup.zsh;/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install" TYPE FILE FILES
-    "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/setup.zsh"
-    "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install" TYPE FILE FILES
+    "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/setup.zsh"
+    "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install/.rosinstall")
+   "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install" TYPE FILE FILES "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install" TYPE FILE FILES "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/velodyne_gazebo_plugins.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/velodyne_gazebo_plugins.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_gazebo_plugins/cmake" TYPE FILE FILES
-    "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/velodyne_gazebo_pluginsConfig.cmake"
-    "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/velodyne_gazebo_pluginsConfig-version.cmake"
+    "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/velodyne_gazebo_pluginsConfig.cmake"
+    "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/catkin_generated/installspace/velodyne_gazebo_pluginsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_gazebo_plugins" TYPE FILE FILES "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_gazebo_plugins" TYPE FILE FILES "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,12 +150,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_laser.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_laser.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_laser.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_laser.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_laser.so")
@@ -173,12 +173,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_gpu_laser.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_gpu_laser.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_gpu_laser.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_gpu_laser.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_gpu_laser.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_gpu_laser.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_velodyne_gpu_laser.so")
@@ -190,12 +190,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/velodyne_gazebo_plugins" TYPE DIRECTORY FILES "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/velodyne_gazebo_plugins" TYPE DIRECTORY FILES "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/gtest/cmake_install.cmake")
+  include("/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/gtest/cmake_install.cmake")
 
 endif()
 
@@ -207,5 +207,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

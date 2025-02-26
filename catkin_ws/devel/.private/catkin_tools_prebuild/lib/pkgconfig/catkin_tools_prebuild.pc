@@ -1,4 +1,4 @@
-prefix=/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/catkin_tools_prebuild
+prefix=/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/catkin_tools_prebuild
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

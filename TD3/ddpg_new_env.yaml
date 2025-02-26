@@ -56,6 +56,5 @@ distributed_training: False
 env_seed: 1
 max_episode_steps: 500
 
-
 log_dir: "./logs/ddpg/"
 model_dir: "./models/ddpg/"

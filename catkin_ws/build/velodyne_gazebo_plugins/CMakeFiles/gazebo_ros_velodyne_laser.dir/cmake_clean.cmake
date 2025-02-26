@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.pdb"
-  "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so"
+  "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.pdb"
+  "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so"
   "CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o"
 )
 

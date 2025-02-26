@@ -1,5 +1,5 @@
-Symlinking /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
-Symlinking /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
-Symlinking /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/lib/libgazebo_ros_velodyne_laser.so
-Symlinking /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/lib/libgazebo_ros_velodyne_gpu_laser.so
-Symlinking /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/lib/pkgconfig/velodyne_gazebo_plugins.pc
+Symlinking /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+Symlinking /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+Symlinking /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/lib/libgazebo_ros_velodyne_gpu_laser.so
+Symlinking /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/lib/libgazebo_ros_velodyne_laser.so
+Symlinking /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/lib/pkgconfig/velodyne_gazebo_plugins.pc

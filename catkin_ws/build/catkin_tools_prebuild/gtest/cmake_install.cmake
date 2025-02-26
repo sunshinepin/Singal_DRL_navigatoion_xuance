@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/catkin_tools_prebuild/gtest/googlemock/cmake_install.cmake")
+  include("/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/catkin_tools_prebuild/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

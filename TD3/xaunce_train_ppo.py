@@ -19,7 +19,7 @@ if __name__ == "__main__":
     parser = parse_args()
 
     # 读取配置文件
-    configs_dict = get_configs(file_dir="/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/TD3//home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/TD3/ppo_new_env.yaml")
+    configs_dict = get_configs(file_dir="/home/xzh/Singal_DRL_navigatoion_xuance/TD3/ppo_new_env.yaml")
     configs_dict = recursive_dict_update(configs_dict, parser.__dict__)
     configs = argparse.Namespace(**configs_dict)
 

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/multi_robot_scenario:$CMAKE_PREFIX_PATH"
-export PWD='/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/multi_robot_scenario'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/devel/.private/multi_robot_scenario/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/src/multi_robot_scenario:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/multi_robot_scenario:$CMAKE_PREFIX_PATH"
+export PWD='/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/multi_robot_scenario'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/devel/.private/multi_robot_scenario/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/src/multi_robot_scenario:$ROS_PACKAGE_PATH"

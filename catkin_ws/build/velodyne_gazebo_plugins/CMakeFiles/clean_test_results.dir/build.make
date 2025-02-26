@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins
+CMAKE_SOURCE_DIR = /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins
+CMAKE_BINARY_DIR = /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-ro
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins /home/xzh/drl_navigation_signal/DRL_navigatoion_xuance/DRL-robot-navigation-main/catkin_ws/build/velodyne_gazebo_plugins/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/src/velodyne_simulator/velodyne_gazebo_plugins /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins /home/xzh/Singal_DRL_navigatoion_xuance/catkin_ws/build/velodyne_gazebo_plugins/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 
